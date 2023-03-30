@@ -1,0 +1,27 @@
+* { 
+    margin : 0px
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.list-menu{
+    list-style: none;
+    display: flex;
+    gap: .6em;
+    align-items: center;
+
+}
+.list-menu li:last-child{
+    background-color: blueviolet;
+    padding: .8rem;
+    border-radius: 10%;
+}
+
+
